@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "WorldBlitz.aternos.me",
+    "ip": "2026worldmc.aternos.me",
     "port": 29225,
     "version": "1.21.11",
     "try-creative": false
