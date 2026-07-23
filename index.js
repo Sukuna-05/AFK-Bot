@@ -1090,7 +1090,7 @@ function formatUptime(seconds) {
 const SELF_PING_INTERVAL = 10 * 60 * 1000;
 
 function startSelfPing() {
-  const renderUrl = process.env.RENDER_EXTERNAL_URL;
+  const renderUrl = process.env.RENDER_EXTERNAL_URL || "https://afkbot555.onrender.com";
   if (!renderUrl) {
     addLog(
       "[KeepAlive] No RENDER_EXTERNAL_URL set - self-ping disabled (running locally)",
